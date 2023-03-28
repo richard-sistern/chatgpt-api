@@ -18,9 +18,9 @@ Following a [tutorial on ChatGPT API](https://www.youtube.com/watch?v=LX_DXLlaym
 3. Grab your [Organization ID](https://platform.openai.com/account/org-settings)
 4. Create a `.env` file in root of project.  **DO NOT STORE THIS IN SOURCE CONTROL**
 
+Contents of .env file:
 ```
 CHATGPT_API_KEY="<YOUR API KEY>"
 CHATGPT_ORG_ID="<YOUR ORG ID>"
 ```
 
-This is then loaded with the `require('dotenv').config();` dotenv package
